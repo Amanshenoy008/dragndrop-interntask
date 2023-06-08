@@ -29,7 +29,7 @@ function drop(ev) {
     const box1 = document.getElementById('box1')
     box2.innerHTML=''
    
-    box1.innerHTML = ' <div class="draggable" draggable="true" ondragstart="drag(event)" id="cars">Cars</div> <img src="./img.jpg" alt="image" width="100" height="100" id="image" draggable="true" ondragstart="drag(event)"> <div class="draggable" draggable="true" ondragstart="drag(event)" id="function">const var =>{console.log("Hi world")}</div> <div class="draggable" draggable="true" ondragstart="drag(event)" id="emoji">&#128512; &#128516;</div>'
+    box1.innerHTML = ' <div class="draggable" draggable="true" ondragstart="drag(event)" id="cars">Cars</div> <img src="./image.jpg" alt="image" width="100" height="100" id="image" draggable="true" ondragstart="drag(event)"> <div class="draggable" draggable="true" ondragstart="drag(event)" id="function">const var =>{console.log("Hi world")}</div> <div class="draggable" draggable="true" ondragstart="drag(event)" id="emoji">&#128512; &#128516;</div>'
     const toast = document.createElement('div')
 
     document.getElementById('toast').innerHTML=''
