@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+    
+  
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+  }
+  .root{
+    width: 100vw;
+    height:50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media  (min-width:0px) and (max-width:760px) {
+    
+    .root{
+        width: 100vw;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+      }
+      .btn{
+        border:1px solid red;
+        width:fit-content;
+        position: relative;
+      }
+    
+  }
+  .box1,.box2{
+    width: 300px;
+    height:300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .box1{
+    background: rgba(238, 238, 242, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(238, 238, 242, 0.6);
+  }
+  .box2{
+    background: rgba(57, 57, 180, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(57, 57, 180, 0.6);
+  }
+  .draggable{
+    border:1px solid brown;
+    padding: 5px;
+  }
+
+  .btn{
+    position: relative;
+    left:50vw;
+  }
+
+  button{
+    padding:10px;
+    border-radius: 10px;
+    background-color: gray;
+    color:white;
+    cursor: pointer;
+  }
+
+  #toast{
+    width: 300px;
+    position:relative;
+    left:45vw;
+    top:10vh;
+  }
+
+  .title1{
+    position: relative;
+    left:22vw;
+    top:-8vh;
+  }
+  .title2{
+    position: relative;
+    left:72vw;
+    top:-13vh;
+  }
